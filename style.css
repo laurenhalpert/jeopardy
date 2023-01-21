@@ -1,0 +1,23 @@
+body {
+    background-color: #B5DCFF;
+    text-align: center;
+}
+
+div#header {
+    background-color: white;
+}
+
+header {
+    color: #021951;
+    font-size: 72px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+}
+
+th, td {
+    padding: 15px;
+}
