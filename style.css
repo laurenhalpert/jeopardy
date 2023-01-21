@@ -16,6 +16,13 @@ table {
     margin-left: auto;
     margin-right: auto;
     font-size: 36px;
+    color: #021951;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 5px solid #021951;
+    border-collapse: collapse;
 }
 
 th, td {
