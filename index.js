@@ -57,3 +57,33 @@ function show5 () {
     math1000.innerHTML = "43 - 4(12-9) +34";
 }
 math1000.addEventListener("click", show5);
+
+const friends200 = document.getElementById("friends-200");
+function reveal () {
+    friends200.innerHTML = "The name of the coffee shop.";
+}
+friends200.addEventListener("click", reveal);
+
+const friends400 = document.getElementById("friends-400");
+function reveal2 () {
+    friends400.innerHTML = "The number of divorces Ross has.";
+}
+friends400.addEventListener("click", reveal2);
+
+const friends600 = document.getElementById("friends-600");
+function reveal3 () {
+    friends600.innerHTML = "The names of Ross and Monica's parents.";
+}
+friends600.addEventListener("click", reveal3);
+
+const friends800 = document.getElementById("friends-800");
+function reveal4() {
+    friends800.innerHTML = "Where the friends live in New York.";
+}
+friends800.addEventListener("click", reveal4);
+
+const friends1000 = document.getElementById("friends-1000");
+function reveal5() {
+    friends1000.innerHTML = "Chandler Bing's job.";
+}
+friends1000.addEventListener("click", reveal5);
