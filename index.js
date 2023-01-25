@@ -87,3 +87,33 @@ function reveal5() {
     friends1000.innerHTML = "Chandler Bing's job.";
 }
 friends1000.addEventListener("click", reveal5);
+
+const hp200 = document.getElementById("hp-200");
+function mischiefManaged () {
+    hp200.innerHTML = "The number of houses at Hogwarts.";
+}
+hp200.addEventListener("click", mischiefManaged);
+
+const hp400 = document.getElementById("hp-400");
+function mischiefManaged2 () {
+    hp400.innerHTML = "The headmaster of Hogwarts.";
+}
+hp400.addEventListener("click", mischiefManaged2);
+
+const hp600 = document.getElementById("hp-600");
+function mischiefManaged3 () {
+    hp600.innerHTML = "The train station.";
+}
+hp600.addEventListener("click", mischiefManaged3);
+
+const hp800 = document.getElementById("hp-800");
+function mischiefManaged4() {
+    hp800.innerHTML = "Harry Potter's patronus form.";
+}
+hp800.addEventListener("click", mischiefManaged4);
+
+const hp1000 = document.getElementById("hp-1000");
+function mischiefManaged5 () {
+    hp1000.innerHTML = "Name of Harry Potter's godfather.";
+}
+hp1000.addEventListener ("click", mischiefManaged5);
