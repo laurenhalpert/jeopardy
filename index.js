@@ -117,3 +117,33 @@ function mischiefManaged5 () {
     hp1000.innerHTML = "Name of Harry Potter's godfather.";
 }
 hp1000.addEventListener ("click", mischiefManaged5);
+
+const ts200 = document.getElementById("ts-200");
+function trivia () {
+    ts200.innerHTML = "Taylor's lucky number.";
+}
+ts200.addEventListener("click", trivia);
+
+const ts400 = document.getElementById("ts-400");
+function trivia2 () {
+    ts400.innerHTML = "This Swift song has a ten-minute version.";
+}
+ts400.addEventListener("click", trivia2);
+
+const ts600 = document.getElementById("ts-600");
+function trivia3 () {
+    ts600.innerHTML = "Swift's tenth album.";
+}
+ts600.addEventListener("click", trivia3);
+
+const ts800 = document.getElementById("ts-800");
+function trivia4 () {
+    ts800.innerHTML = "Name of Swift's boyfriend.";
+}
+ts800.addEventListener("click", trivia4);
+
+const ts1000 = document.getElementById("ts-1000");
+function trivia5 () {
+    ts1000.innerHTML = "Names of Swift's cats";
+}
+ts1000.addEventListener ("click", trivia5);
