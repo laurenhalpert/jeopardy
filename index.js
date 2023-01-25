@@ -27,3 +27,9 @@ function display5 () {
     jumble1000.innerHTML = "nocitan"
 }
 jumble1000.addEventListener("click", display5);
+
+const math200 = document.getElementById("math-200");
+function show () {
+    math200.innerHTML = "4!";
+}
+math200.addEventListener("click", show);
