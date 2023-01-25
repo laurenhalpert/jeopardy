@@ -33,3 +33,27 @@ function show () {
     math200.innerHTML = "4!";
 }
 math200.addEventListener("click", show);
+
+const math400 = document.getElementById("math-400");
+function show2() {
+    math400.innerHTML = "2(8-5)";
+}
+math400.addEventListener("click", show2);
+
+const math600 = document.getElementById("math-600");
+function show3 () {
+    math600.innerHTML = "1+ 2 (12 / 4)";
+}
+math600.addEventListener("click", show3);
+
+const math800 = document.getElementById("math-800");
+function show4 () {
+    math800.innerHTML = "7 + 4 - 2(8-7)^2";
+}
+math800.addEventListener("click", show4);
+
+const math1000 = document.getElementById("math-1000");
+function show5 () {
+    math1000.innerHTML = "43 - 4(12-9) +34";
+}
+math1000.addEventListener("click", show5);
