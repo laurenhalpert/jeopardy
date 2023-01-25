@@ -147,3 +147,33 @@ function trivia5 () {
     ts1000.innerHTML = "Names of Swift's cats";
 }
 ts1000.addEventListener ("click", trivia5);
+
+const french200 = document.getElementById("french-200");
+function voila () {
+    french200.innerHTML = "le chat";
+}
+french200.addEventListener("click", voila);
+
+const french400 = document.getElementById("french-400");
+function voila2 () {
+    french400.innerHTML = "la pomme";
+}
+french400.addEventListener("click", voila2);
+
+const french600 = document.getElementById("french-600");
+function voila3 () {
+    french600.innerHTML = "le ciel";
+}
+french600.addEventListener("click", voila3);
+
+const french800 = document.getElementById("french-800");
+function voila4 () {
+    french800.innerHTML = "le tableau";
+}
+french800.addEventListener("click", voila4);
+
+const french1000 = document.getElementById("french-1000");
+function voila5 () {
+    french1000.innerHTML = "les chameaux";
+}
+french1000.addEventListener("click", voila5);
