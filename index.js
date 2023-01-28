@@ -155,88 +155,148 @@ const hp200 = document.getElementById("hp-200");
 function mischiefManaged () {
     hp200.innerHTML = "The number of houses at Hogwarts.";
 }
+function erase16() {
+    hp200.innerHTML = "";
+}
 hp200.addEventListener("click", mischiefManaged);
+hp200.addEventListener("dblclick", erase16);
 
 const hp400 = document.getElementById("hp-400");
 function mischiefManaged2 () {
     hp400.innerHTML = "The headmaster of Hogwarts.";
 }
+function erase17() {
+    hp400.innerHTML = "";
+}
 hp400.addEventListener("click", mischiefManaged2);
+hp400.addEventListener("dblclick", erase17);
 
 const hp600 = document.getElementById("hp-600");
 function mischiefManaged3 () {
     hp600.innerHTML = "The train station.";
 }
+function erase18() {
+    hp600.innerHTML = "";
+}
 hp600.addEventListener("click", mischiefManaged3);
+hp600.addEventListener("dblclick", erase18);
 
 const hp800 = document.getElementById("hp-800");
 function mischiefManaged4() {
     hp800.innerHTML = "Harry Potter's patronus form.";
 }
+function erase19() {
+    hp800.innerHTML = "";
+}
 hp800.addEventListener("click", mischiefManaged4);
+hp800.addEventListener("dblclick", erase19);
 
 const hp1000 = document.getElementById("hp-1000");
 function mischiefManaged5 () {
     hp1000.innerHTML = "Name of Harry Potter's godfather.";
 }
+function erase20() {
+    hp1000.innerHTML = "";
+}
 hp1000.addEventListener ("click", mischiefManaged5);
+hp1000.addEventListener("dblclick", erase20);
 
 const ts200 = document.getElementById("ts-200");
 function trivia () {
     ts200.innerHTML = "Taylor's lucky number.";
 }
+function erase21() {
+    ts200.innerHTML = "";
+}
 ts200.addEventListener("click", trivia);
+ts200.addEventListener("dblclick", erase21);
 
 const ts400 = document.getElementById("ts-400");
 function trivia2 () {
     ts400.innerHTML = "This Swift song has a ten-minute version.";
 }
+function erase22() {
+    ts400.innerHTML = "";
+}
 ts400.addEventListener("click", trivia2);
+ts400.addEventListener("dblclick", erase22);
 
 const ts600 = document.getElementById("ts-600");
 function trivia3 () {
     ts600.innerHTML = "Swift's tenth album.";
 }
+function erase23() {
+    ts600.innerHTML = "";
+}
 ts600.addEventListener("click", trivia3);
+ts600.addEventListener("dblclick", erase23);
 
 const ts800 = document.getElementById("ts-800");
 function trivia4 () {
     ts800.innerHTML = "Name of Swift's boyfriend.";
 }
+function erase24() {
+    ts800.innerHTML = "";
+}
 ts800.addEventListener("click", trivia4);
+ts800.addEventListener("dblclick", erase24);
 
 const ts1000 = document.getElementById("ts-1000");
 function trivia5 () {
     ts1000.innerHTML = "Names of Swift's cats";
 }
+function erase25() {
+    ts1000.innerHTML = "";
+}
 ts1000.addEventListener ("click", trivia5);
+ts1000.addEventListener("dblclick", erase25);
 
 const french200 = document.getElementById("french-200");
 function voila () {
     french200.innerHTML = "le chat";
 }
+function erase26() {
+    french200.innerHTML = "";
+}
 french200.addEventListener("click", voila);
+french200.addEventListener("dblclick", erase26);
 
 const french400 = document.getElementById("french-400");
 function voila2 () {
     french400.innerHTML = "la pomme";
 }
+function erase27() {
+    french400.innerHTML = "";
+}
 french400.addEventListener("click", voila2);
+french400.addEventListener("dblclick", erase27);
 
 const french600 = document.getElementById("french-600");
 function voila3 () {
     french600.innerHTML = "le ciel";
 }
+function erase28() {
+    french600.innerHTML = "";
+}
 french600.addEventListener("click", voila3);
+french600.addEventListener("dblclick", erase28);
 
 const french800 = document.getElementById("french-800");
 function voila4 () {
     french800.innerHTML = "le tableau";
 }
+function erase29() {
+    french800.innerHTML = "";
+}
 french800.addEventListener("click", voila4);
+french800.addEventListener("dblclick", erase29);
 
 const french1000 = document.getElementById("french-1000");
 function voila5 () {
     french1000.innerHTML = "les chameaux";
 }
+function erase30() {
+    french1000.innerHTML = "";
+}
 french1000.addEventListener("click", voila5);
+french1000.addEventListener("dblclick", erase30);
