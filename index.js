@@ -55,61 +55,101 @@ const math200 = document.getElementById("math-200");
 function show () {
     math200.innerHTML = "4!";
 }
+function erase6() {
+    math200.innerHTML = "";
+}
 math200.addEventListener("click", show);
+math200.addEventListener("dblclick", erase6);
 
 const math400 = document.getElementById("math-400");
 function show2() {
     math400.innerHTML = "2(8-5)";
 }
+function erase7() {
+    math400.innerHTML = "";
+}
 math400.addEventListener("click", show2);
+math400.addEventListener("dblclick", erase7);
 
 const math600 = document.getElementById("math-600");
 function show3 () {
     math600.innerHTML = "1+ 2 (12 / 4)";
 }
+function erase8() {
+    math600.innerHTML = "";
+}
 math600.addEventListener("click", show3);
+math600.addEventListener("dblclick", erase8);
 
 const math800 = document.getElementById("math-800");
 function show4 () {
     math800.innerHTML = "7 + 4 - 2(8-7)^2";
 }
+function erase9() {
+    math800.innerHTML = "";
+}
 math800.addEventListener("click", show4);
+math800.addEventListener("dblclick", erase9);
 
 const math1000 = document.getElementById("math-1000");
 function show5 () {
     math1000.innerHTML = "43 - 4(12-9) +34";
 }
+function erase10() {
+    math1000.innerHTML = "";
+}
 math1000.addEventListener("click", show5);
+math1000.addEventListener("dblclick", erase10);
 
 const friends200 = document.getElementById("friends-200");
 function reveal () {
     friends200.innerHTML = "The name of the coffee shop.";
 }
+function erase11() {
+    friends200.innerHTML = "";
+}
 friends200.addEventListener("click", reveal);
+friends200.addEventListener("dblclick", erase11);
 
 const friends400 = document.getElementById("friends-400");
 function reveal2 () {
     friends400.innerHTML = "The number of divorces Ross has.";
 }
+function erase12() {
+    friends400.innerHTML = "";
+}
 friends400.addEventListener("click", reveal2);
+friends400.addEventListener("dblclick", erase12);
 
 const friends600 = document.getElementById("friends-600");
 function reveal3 () {
     friends600.innerHTML = "The names of Ross and Monica's parents.";
 }
+function erase13() {
+    friends600.innerHTML = "";
+}
 friends600.addEventListener("click", reveal3);
+friends600.addEventListener("dblclick", erase13);
 
 const friends800 = document.getElementById("friends-800");
 function reveal4() {
     friends800.innerHTML = "Where the friends live in New York.";
 }
+function erase14() {
+    friends800.innerHTML = "";
+}
 friends800.addEventListener("click", reveal4);
+friends800.addEventListener("dblclick", erase14);
 
 const friends1000 = document.getElementById("friends-1000");
 function reveal5() {
     friends1000.innerHTML = "Chandler Bing's job.";
 }
+function erase15() {
+    friends1000.innerHTML = "";
+}
 friends1000.addEventListener("click", reveal5);
+friends1000.addEventListener("dblclick", erase15);
 
 const hp200 = document.getElementById("hp-200");
 function mischiefManaged () {
