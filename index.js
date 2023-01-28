@@ -1,32 +1,55 @@
+
+
 const jumble200 = document.getElementById("jumble-200");
 function display() {
     jumble200.innerHTML = "uchco";
 };
+function erase() {
+    jumble200.innerHTML = "";
+}
 jumble200.addEventListener("click", display);
+jumble200.addEventListener("dblclick", erase);
+
 
 const jumble400 = document.getElementById("jumble-400");
 function display2 () {
     jumble400.innerHTML = "bylbo";
 };
+function erase2() {
+    jumble400.innerHTML = "";
+}
 jumble400.addEventListener("click", display2);
+jumble400.addEventListener("dblclick", erase2);
 
 const jumble600 = document.getElementById("jumble-600");
 function display3 () {
     jumble600.innerHTML = "wiplol";
 }
+function erase3() {
+    jumble600.innerHTML = "";
+}
 jumble600.addEventListener("click", display3);
+jumble600.addEventListener("dblclick", erase3);
 
 const jumble800 = document.getElementById("jumble-800");
 function display4 () {
     jumble800.innerHTML = "reltet";
 }
+function erase4() {
+    jumble800.innerHTML = "";
+}
 jumble800.addEventListener("click", display4);
+jumble800.addEventListener("dblclick", erase4);
 
 const jumble1000 = document.getElementById("jumble-1000");
 function display5 () {
     jumble1000.innerHTML = "nocitan"
 }
+function erase5() {
+    jumble1000.innerHTML = "";
+}
 jumble1000.addEventListener("click", display5);
+jumble1000.addEventListener("dblclick", erase5);
 
 const math200 = document.getElementById("math-200");
 function show () {
